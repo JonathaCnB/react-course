@@ -18,3 +18,9 @@ a palavra run é usada é alguns casos.\
 
 Todo array precisa de um atributo `key` para otimizar a performasse
 **Note: Essa key precisa ser um dado único do elemento que está sendo retornado.**
+
+### Componente React
+
+Um componente é uma classe que tem um metodo `render` e retorna `jsx` ou\
+uma função que também retorna `jsx`.
+Posso criar componentes de classe ou de função.
