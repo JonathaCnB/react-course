@@ -24,3 +24,25 @@ Todo array precisa de um atributo `key` para otimizar a performasse
 Um componente é uma classe que tem um metodo `render` e retorna `jsx` ou\
 uma função que também retorna `jsx`.
 Posso criar componentes de classe ou de função.
+Na duvida, separa o componente
+
+**Note: Função que não é componente, construtora ou classe, escre com CamelCase**
+
+Operador Ternário
+!!searchValue ? 1condition : 2condition
+Se searchValue for verdadeiro faça a 1 condição
+!! True
+! False
+
+**Note: Quanto mais componentizado for o sistema melhor para testes, pois, os testes podem ser específicos para o componente teste.**
+
+State só pode ser passado dos componentes pais para os filhos do contrário não é possível
+quanto o state muda, o que mudar causa a renderização da página.
+
+É importante saber onde colocar o state, pois, ele causa um efeito, cascata na página
+
+**Note: `ssh-keygen -t rsa -f '~/.ssh/github' -C 'email@email.com` Para gerar uma ssh**
+
+após criada a chave precisa ser ativada no windows
+`eval $(ssh-agent -s)`
+`ssh-add ~/.ssh/github`
