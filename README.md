@@ -46,3 +46,11 @@ quanto o state muda, o que mudar causa a renderização da página.
 após criada a chave precisa ser ativada no windows
 `eval $(ssh-agent -s)`
 `ssh-add ~/.ssh/github`
+
+## Tests
+
+`npm test -- --coverage`
+`npm test -- --watchAll='false' --coverage`
+`npm i -D prettier eslint-config-prettier eslint-plugin-prettier`
+`npm i prop-types`
+`npx eslint src/**/*.jsx --fix`
